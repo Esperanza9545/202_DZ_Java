@@ -5,7 +5,7 @@ public class Main {
         int uploadVolume = 1700;
         int bonus;
 
-        if (uploadVolume >= 1000){
+        if (uploadVolume > 1000) {
             bonus = uploadVolume / bonusScale;
         } else {
             bonus = 0;
